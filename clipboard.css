@@ -94,12 +94,24 @@ button {
 }
 .mactext {
   display: flex;
-  gap: 5em;
+  gap: 6em;
   align-items: center;
 }
+#mac {
+  width: 100%;
+  margin-left: -16em;
+}
+#textR {
+  height: auto;
+  margin-bottom: 0;
+  margin-top: 0;
+  width: 15em;
+}
 #smallT {
-  margin-bottom: 10em;
-  margin-top: 0%;
+  margin-bottom: 6em;
+}
+#smallT1 {
+  margin-bottom: 6em;
 }
 h3 {
   margin-bottom: 0.4em;
@@ -145,6 +157,7 @@ h3 {
   margin-bottom: 3em;
 }
 .footer {
+  width: 100vw;
   margin-top: 5em;
   display: flex;
   justify-content: space-around;
